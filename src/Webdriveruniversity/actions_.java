@@ -26,8 +26,8 @@ public class actions_ {
 		ac.clickAndHold(SourceElement).moveToElement(TagetElement).release().build().perform();
 
 	
-		WebElement doubleclick = Driver.findElement(By.id("double-click"));
-		ac.doubleClick(doubleclick).perform();
+//		WebElement doubleclick = Driver.findElement(By.id("double-click"));
+//		ac.doubleClick(doubleclick).perform();
 		
 	}
 
